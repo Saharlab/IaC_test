@@ -70,7 +70,3 @@ resource "azurerm_mysql_flexible_server_firewall_rule" "mysqlfwrule1" {
     depends_on = [ azurerm_mysql_flexible_server.serverformation1, 
     azurerm_mysql_flexible_database.mysqldb1 ] 
 }
-
-git add .
-git commit -m "terraform infrastructure definition"
-git push
